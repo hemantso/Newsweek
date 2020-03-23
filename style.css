@@ -1,4 +1,131 @@
 * {
-  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.container-fluid .header-container {
+  background-color: #f72210;
+  color: white;
+  padding: 20px 10px 15px;
+}
+
+.header-container .weather-icon {
+  align-self: flex-end;
+  height: 34px;
+  width: 34px;
+}
+
+.header-container .temperature,
+.header-container .city-info {
+  margin-bottom: 0;
+  padding-left: 8px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.header-container .city-info {
+  padding-right: 5px;
+}
+
+.header-container .r-arrow-weather {
+  height: 11px;
+  width: 6px;
+}
+
+.date {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.header-container .logo {
+  filter: invert(100%);
+}
+
+.header-container .col-4:last-child {
+  padding-right: 0;
+}
+
+.header-container .sign-in {
+  font-size: 18px;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-container .sign-in:hover {
+  cursor: pointer;
+}
+
+.header-container .sub-header-b {
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: white;
+  color: #f72210;
+  padding-left: 12px;
+  padding-right: 13px;
+}
+
+.container-fluid .navbar {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
   padding: 0;
+}
+
+.navbar-nav .nav-item:first-child {
+  padding-left: 0;
+}
+
+.nav-item .nav-link {
+  font-size: 19px;
+  font-weight: bolder;
+  border-right: 1px solid #d9d9d9;
+  color: black;
+  padding: 0;
+}
+
+.nav-item .nav-link:hover {
+  color: #f72210;
+  cursor: pointer;
+}
+
+.nav-item:nth-child(11) .nav-link {
+  border: 0;
+}
+
+.navbar .nav-input {
+  height: 54px;
+  width: 60px;
+  border: 0;
+}
+
+.navbar-nav .nav-form {
+  width: 150px;
+}
+
+.nav-form .nav-search {
+  height: 20px;
+  width: 20px;
 }

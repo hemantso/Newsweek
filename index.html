@@ -1,17 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Newsweek</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      <h1>Hello world</h1>
+    <header class="container-fluid fixed">
+      <div class="header-container row">
+        <div class="col-4">
+          <div class="row">
+            <div class="d-flex align-items-center col-12">
+              <img class="weather-icon" src="https://g.newsweek.com/img/weather/30.png" alt="weather">
+              <p class="temperature">27°</p>
+              <p class="city-info">Guadalajara, MX</p>
+              <img class="r-arrow-weather" src="images/right-arrow.svg" alt="">
+            </div>
+            <div class="col-12">
+              <p class="date">Wed, Mar 18, 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img class="logo" src="images/logo.svg" alt="logo">
+        </div>
+        <div class="d-flex justify-content-end align-items-end col-4">
+          <div class="d-flex align-items-center">
+            <a class="sign-in">SIGN  IN</a>
+            <button type="button" class="btn btn-light text-danger font-weight-bold">SUBSCRIBE</button>
+        </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-xl justify-content-start">
+        <ul class="navbar-nav flex-row justify-content-between align-items-center w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="#">U.S.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tech & Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsgeek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">The Debate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vantage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Weather</a>
+          </li>
+          <form class="nav-form" action="">
+            <input class="nav-input" type="text" placeholder="Search">
+            <a href="#"><img class="nav-search" src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt=""></a>
+          </form>
+        </ul>
+      </nav>
+    </header>
    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
