@@ -13,7 +13,7 @@ Use of Bootstrap in Designing, Positioning and floating of elements to make this
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/Newsweek/eb5b3ae7311120e1c6f3560b311d6cf64dd92722/index.html)
 
 
 ## Authors
