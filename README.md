@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of newsweek.com website
 
-![screenshot](./image/Screenshot.png)
+![screenshot](./assets/images/Screenshot.png)
 
 Use of Bootstrap in Designing, Positioning and floating of elements to make this site Responsive.
 
