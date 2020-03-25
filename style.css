@@ -803,7 +803,12 @@ footer .genericon {
   margin: 6px 0;
   cursor: pointer;
 }
-
+ footer .company-menu ul {
+  margin-left: -42px;
+ }
+ footer .edition-1 {
+  margin-left: -33px;
+ }
 @media screen and (max-width: 767px) {
   footer .top-social-media {
     width: 100%;
