@@ -628,6 +628,9 @@ footer header {
   .magazine img {
     height: 170px;
   }
+  .magazine img:first-child {
+    height: auto;
+  }
 }
 .editors-pick-item {
   margin-bottom: 20px;
@@ -768,7 +771,7 @@ footer header {
 footer {
   border-top: 2px solid #f4f5f6;
   background-color: white;
-  padding: 30px 15px;
+  padding: 10px 15px;
 }
 
 footer .top-brand {
@@ -829,6 +832,7 @@ footer .genericon {
 
 .the-footer-links {
   display: flex;
+  width: 100%;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   border-top: 1px solid #d9d9d9;
@@ -838,15 +842,19 @@ footer .genericon {
   color: #666;
 }
 
+.mid-editions {
+  width: 120%;
+}
+
 .mid-editions label {
-  margin-top: 6px;
-  margin-right: 15px;
+  margin-top: 3px;
+  margin-right: 10px;
 }
 
 .the-footer-links li {
   display: inline-block;
-  padding-right: 20px;
-  margin: 6px 0;
+  padding-right: 10px;
+  margin: 3px 2px;
   cursor: pointer;
 }
  footer .company-menu ul {
@@ -872,13 +880,19 @@ footer .genericon {
   .the-footer-links .mid-editions ul {
     flex-wrap: wrap;
   }
+  .the-footer-links li {
+    display: flex;
+    padding-right: 20px;
+    margin: 3px 0;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .the-footer-links li {
     border-right: 1px solid #d9d9d9;
-    padding-right: 10px;
-    margin-right: 10px;
+    padding-right: 15px;
+    /* margin-right: 10px; */
   }
 
   .mid-editions li:last-of-type {
