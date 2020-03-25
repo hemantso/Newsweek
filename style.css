@@ -392,12 +392,16 @@ footer ul li {
 }
 
 .more-stories-item img,
-.latest-news-item img,
 .main-small img {
   float: left;
-  width: 50%;
+  width: 31%;
   height: auto;
   margin-right: 15px;
+}
+
+.latest-news-item img {
+  width: 30%;
+  margin-right: 10px;
 }
 
 .more-stories-item,
@@ -445,7 +449,6 @@ footer ul li {
 .top-story img,
 .culture-travel-item img,
 .opinion-item img,
-.latest-news-item img,
 .editors-pick img,
 .slideshow-item img,
 .main-category img,
@@ -832,6 +835,10 @@ footer .top-wrap {
 footer .top-social-media {
   color: #666;
   margin-bottom: 12px;
+}
+
+footer .top-social-media i {
+  padding-right: 8px;
 }
 
 footer .top-social-media li:first-child,
