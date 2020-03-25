@@ -361,10 +361,18 @@ h6 a:hover {
 .more-stories-item,
 .latest-news-item,
 .main-small {
-  display: grid;
-  grid-template-columns: 135px 1fr;
-  grid-gap: 15px;
+  display: flex;
+  /* grid-template-columns: 1fr;
+  grid-gap: 15px; */
   border-top: 1px solid #ddd;
+}
+.more-stories-item img,
+.latest-news-item img,
+.main-small img {
+  float: left;
+  widows: 50%; 
+  height: auto;
+  margin-right:15px
 }
 
 .more-stories-item,
