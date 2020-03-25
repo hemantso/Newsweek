@@ -319,7 +319,6 @@ footer ul li {
   display: none;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .header-top {
     height: 55px;
@@ -345,7 +344,6 @@ footer ul li {
     margin-bottom: 1rem;
   }
 }
-
 
 @media only screen and (max-width: 480px) {
   .header-top .btn-red,
@@ -645,7 +643,6 @@ footer header {
   padding: 0;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .magazine .col-md-9 {
     margin-top: 0;
@@ -776,14 +773,12 @@ footer header {
   height: auto;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .cta-newsletter {
     grid-template-columns: 190px 1fr;
     grid-template-rows: 190px;
   }
 }
-
 
 @media only screen and (max-width: 768px) {
   .subscribe,
