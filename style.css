@@ -349,7 +349,17 @@ footer ul li {
   .header-top .btn-red,
   .header-top .btn-white {
     font-size: 0.7rem;
-    padding: 0 1px;
+    padding: 0 2px;
+  }
+  .account-links .btn-white {
+    padding: 3px;
+  }
+  .main-logo {
+    height: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .account-links {
+    margin: 0px 0 9px 0;
   }
 }
 
