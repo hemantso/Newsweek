@@ -94,6 +94,12 @@ footer a {
   font-size: 20px;
 }
 
+footer .top-social-media a,
+footer .the-footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1 a:hover {
   text-decoration: none;
   color: inherit;
@@ -187,7 +193,6 @@ h6 a:hover {
   color: #fff;
 }
 
-
 .btn-red,
 .btn-white {
   padding: 0 12px;
@@ -241,9 +246,21 @@ h6 a:hover {
   border-bottom: 2px solid #f4f5f6;
 }
 
+footer ul {
+  list-style: none outside none;
+}
+
 .header-bottom ul {
   width: 100%;
   margin-left: -35px;
+}
+
+footer ul li {
+  margin-left: 10px;
+}
+
+.account-links li {
+  list-style: none;
 }
 
 .header-bottom li {
@@ -252,15 +269,22 @@ h6 a:hover {
   font-weight: bold;
   font-stretch: condensed;
   line-height: 24px;
- 
   color: black;
   border-right: 1px solid #d9d9d9;
   list-style: none;
 }
 
+.the-footer-links li {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+
 .header-bottom li:last-child {
   border: none;
 }
+
 .header-bottom a:hover {
   color: #f72210;
 }
@@ -281,6 +305,7 @@ h6 a:hover {
   height: auto;
   margin-bottom: 0.7rem;
 }
+
 .search-icon {
   position: absolute;
   right: 109px;
@@ -288,10 +313,6 @@ h6 a:hover {
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat #fff;
   width: 20px;
   height: 18px;
-}
-
-.account-links li {
-  list-style: none;
 }
 
 .account-links li:last-child {
@@ -308,14 +329,16 @@ h6 a:hover {
     font-size: 0.9rem;
     padding: 3px;
   }
+
   .account-links li:last-child {
     display: flex;
     margin: -5px 0 -2px 20px;
-    
   }
+
   .account-links li:last-child i {
     color: #fb9a94;
   }
+
   .main-logo {
     height: 1.8rem;
     margin-bottom: 1rem;
@@ -367,13 +390,14 @@ h6 a:hover {
   width: 100%;
   border-top: 1px solid #ddd;
 }
+
 .more-stories-item img,
 .latest-news-item img,
 .main-small img {
   float: left;
-  width: 50%; 
+  width: 50%;
   height: auto;
-  margin-right:15px
+  margin-right: 15px;
 }
 
 .more-stories-item,
@@ -522,12 +546,12 @@ footer header {
     grid-template-columns: 1fr 1fr;
   }
 
-.latest-news-item img {
-  float: left;
-  width: 30%; 
-  height: auto;
-  margin-right:15px
-}
+  .latest-news-item img {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 15px;
+  }
 }
 
 .section-header {
@@ -618,20 +642,25 @@ footer header {
   position: static;
   padding: 0;
 }
+
 @media only screen and (max-width: 1000px) {
   .magazine .col-md-9 {
     margin-top: 0;
   }
+
   .magazine-cover {
     margin-top: 17px;
   }
+
   .magazine img {
     height: 170px;
   }
+
   .magazine img:first-child {
     height: auto;
   }
 }
+
 .editors-pick-item {
   margin-bottom: 20px;
 }
@@ -805,20 +834,6 @@ footer .top-social-media {
   margin-bottom: 12px;
 }
 
-footer .top-social-media a,
-footer .the-footer-links a {
-  color: inherit;
-  text-decoration: none;
-}
-
-footer ul {
-  list-style: none outside none;
-}
-
-footer ul li {
-  margin-left: 10px;
-}
-
 footer .top-social-media li:first-child,
 footer .mid-editions li:first-child {
   margin-left: 0;
@@ -827,8 +842,6 @@ footer .mid-editions li:first-child {
 footer .genericon {
   line-height: 24px;
 }
-
-
 
 .the-footer-links {
   display: flex;
@@ -851,18 +864,14 @@ footer .genericon {
   margin-right: 10px;
 }
 
-.the-footer-links li {
-  display: inline-block;
-  padding-right: 10px;
-  margin: 3px 2px;
-  cursor: pointer;
-}
- footer .company-menu ul {
+footer .company-menu ul {
   margin-left: -42px;
- }
- footer .edition-1 {
+}
+
+footer .edition-1 {
   margin-left: -33px;
- }
+}
+
 @media screen and (max-width: 767px) {
   footer .top-social-media {
     width: 100%;
@@ -880,6 +889,7 @@ footer .genericon {
   .the-footer-links .mid-editions ul {
     flex-wrap: wrap;
   }
+
   .the-footer-links li {
     display: flex;
     padding-right: 20px;
@@ -892,7 +902,6 @@ footer .genericon {
   .the-footer-links li {
     border-right: 1px solid #d9d9d9;
     padding-right: 15px;
-    /* margin-right: 10px; */
   }
 
   .mid-editions li:last-of-type {
@@ -901,5 +910,3 @@ footer .genericon {
     margin-right: 0;
   }
 }
-
-
