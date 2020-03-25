@@ -184,17 +184,16 @@ h6 a:hover {
 .header-top .d-none {
   margin-left: 20px;
   font-size: 16px;
-  font-stretch: condensed;
-  line-height: 34px;
   color: #fff;
 }
+
 
 .btn-red,
 .btn-white {
   padding: 0 12px;
-  font-size: 18px;
+  font-size: 16px;
   font-stretch: condensed;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -207,6 +206,7 @@ h6 a:hover {
 .btn-white {
   background-color: #fff;
   color: #f72210;
+  padding: 6px;
 }
 
 .btn-red:hover,
@@ -237,16 +237,18 @@ h6 a:hover {
   position: relative;
   padding: 15px 160px 15px 0;
   background-color: #fff;
+  height: 54px;
   border-bottom: 2px solid #f4f5f6;
 }
 
 .header-bottom ul {
   width: 100%;
+  margin-left: -35px;
 }
 
 .header-bottom li {
   text-align: center;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: bold;
   font-stretch: condensed;
   line-height: 24px;
@@ -254,34 +256,44 @@ h6 a:hover {
   border-right: 1px solid #d9d9d9;
   list-style: none;
 }
-
+.header-bottom li:last-child {
+  border: none;
+}
 .header-bottom a:hover {
   color: #f72210;
 }
 
 .search-field {
   position: absolute;
-  top: 0;
-  right: 102px;
+  top: 11px;
+  right: 132px;
   width: 60px;
-  height: 54px;
+  height: 30px;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.55);
   background-color: #fff;
   border: none;
 }
 
+.main-logo {
+  height: auto;
+  margin-bottom: 0.7rem;
+}
 .search-icon {
   position: absolute;
-  right: 82px;
-  top: 18px;
+  right: 109px;
+  top: 17px;
   background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat #fff;
   width: 20px;
-  height: 20px;
+  height: 18px;
 }
 
 .account-links li {
   list-style: none;
+}
+
+.account-links li:last-child {
+  display: none;
 }
 
 @media only screen and (max-width: 992px) {
@@ -292,12 +304,19 @@ h6 a:hover {
   .header-top .btn-red,
   .header-top .btn-white {
     font-size: 0.9rem;
-    padding: 0 3px;
+    padding: 3px;
   }
-
+  .account-links li:last-child {
+    display: flex;
+    margin: -5px 0 -2px 20px;
+    
+  }
+  .account-links li:last-child i {
+    color: #fb9a94;
+  }
   .main-logo {
-    height: 1.2rem;
-    margin-bottom: 0.7rem;
+    height: 1.8rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -840,3 +859,5 @@ footer .genericon {
     margin-right: 0;
   }
 }
+
+
