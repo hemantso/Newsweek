@@ -525,6 +525,7 @@ footer header {
   display: flex;
   align-items: center;
 }
+
 .magazine .col-md-9 {
   margin-top: 26px;
 }
@@ -600,7 +601,17 @@ footer header {
   position: static;
   padding: 0;
 }
-
+@media only screen and (max-width: 1000px) {
+  .magazine .col-md-9 {
+    margin-top: 0;
+  }
+  .magazine-cover {
+    margin-top: 17px;
+  }
+  .magazine img {
+    height: 170px;
+  }
+}
 .editors-pick-item {
   margin-bottom: 20px;
 }
