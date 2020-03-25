@@ -252,10 +252,12 @@ h6 a:hover {
   font-weight: bold;
   font-stretch: condensed;
   line-height: 24px;
+ 
   color: black;
   border-right: 1px solid #d9d9d9;
   list-style: none;
 }
+
 .header-bottom li:last-child {
   border: none;
 }
@@ -296,7 +298,7 @@ h6 a:hover {
   display: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1000px) {
   .header-top {
     height: 55px;
   }
@@ -362,15 +364,14 @@ h6 a:hover {
 .latest-news-item,
 .main-small {
   display: flex;
-  /* grid-template-columns: 1fr;
-  grid-gap: 15px; */
+  width: 100%;
   border-top: 1px solid #ddd;
 }
 .more-stories-item img,
 .latest-news-item img,
 .main-small img {
   float: left;
-  widows: 50%; 
+  width: 50%; 
   height: auto;
   margin-right:15px
 }
@@ -517,8 +518,16 @@ footer header {
 
 @media only screen and (max-width: 768px) {
   .latest-news-item {
-    grid-template-columns: 2fr 1fr;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
   }
+
+.latest-news-item img {
+  float: left;
+  width: 30%; 
+  height: auto;
+  margin-right:15px
+}
 }
 
 .section-header {
