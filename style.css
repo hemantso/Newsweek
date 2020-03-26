@@ -321,6 +321,11 @@ footer ul li {
   margin: -5px 0 -2px 20px;
 }
 
+footer .top-social-media i {
+  padding-right: 8px;
+  font-size: 20px;
+}
+
 .account-links li:last-child i {
   color: #fb9a94;
 }
@@ -854,11 +859,6 @@ footer .top-wrap {
 footer .top-social-media {
   color: #666;
   margin-bottom: 12px;
-}
-
-footer .top-social-media i {
-  padding-right: 8px;
-  font-size: 20px;
 }
 
 footer .top-social-media li:first-child,
