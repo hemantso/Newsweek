@@ -205,6 +205,7 @@ h6 a:hover {
 
 .btn-red {
   color: #fff;
+  margin-right: 5px;
   background-color: #f72210;
 }
 
@@ -316,7 +317,12 @@ footer ul li {
 }
 
 .account-links li:last-child {
-  display: none;
+  display: flex;
+  margin: -5px 0 -2px 20px;
+}
+
+.account-links li:last-child i {
+  color: #fb9a94;
 }
 
 @media only screen and (max-width: 1000px) {
