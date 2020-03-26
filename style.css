@@ -401,13 +401,7 @@ footer ul li {
   border-top: 1px solid #ddd;
 }
 
-.more-stories-item img,
-.main-small img {
-  float: left;
-  width: 31%;
-  height: auto;
-  margin-right: 15px;
-}
+
 
 .latest-news-item img {
   width: 30%;
@@ -467,6 +461,14 @@ footer ul li {
   width: 100%;
 }
 
+.more-stories-item img,
+.main-small img {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-right: 15px;
+}
+.main-category .main-small
 .culture-travel-content {
   margin: 0 5px 10px 5px;
   color: rgba(39, 39, 39, 0.5);
